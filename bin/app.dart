@@ -9,5 +9,5 @@ main() {
   var person = new Person("Frank");
   print("Hello $person");
   print("Hello " + person.toString());
-  print("Hello " + person);
+  print("Hello " + person); // This breaks the app
 }
